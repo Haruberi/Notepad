@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NotepadProject
+namespace Notepad
 {
-    public partial class NotepadForm : Form
+    public partial class Form1 : Form
     {
-        public NotepadForm()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void NotepadForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
