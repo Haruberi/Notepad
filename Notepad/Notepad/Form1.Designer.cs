@@ -146,6 +146,7 @@ namespace Notepad
             // oppnaToolStripMenuItem
             // 
             this.oppnaToolStripMenuItem.Name = "oppnaToolStripMenuItem";
+            this.oppnaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.oppnaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.oppnaToolStripMenuItem.Text = "Öppna...";
             this.oppnaToolStripMenuItem.Click += new System.EventHandler(this.oppnaToolStripMenuItem_Click);
@@ -153,6 +154,7 @@ namespace Notepad
             // sparaToolStripMenuItem
             // 
             this.sparaToolStripMenuItem.Name = "sparaToolStripMenuItem";
+            this.sparaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.sparaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sparaToolStripMenuItem.Text = "Spara";
             this.sparaToolStripMenuItem.Click += new System.EventHandler(this.sparaToolStripMenuItem_Click);
@@ -178,12 +180,14 @@ namespace Notepad
             // kopieraToolStripMenuItem
             // 
             this.kopieraToolStripMenuItem.Name = "kopieraToolStripMenuItem";
+            this.kopieraToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.kopieraToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.kopieraToolStripMenuItem.Text = "Kopiera";
             // 
             // klistraInToolStripMenuItem
             // 
             this.klistraInToolStripMenuItem.Name = "klistraInToolStripMenuItem";
+            this.klistraInToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
             this.klistraInToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.klistraInToolStripMenuItem.Text = "Klistra in";
             // 
